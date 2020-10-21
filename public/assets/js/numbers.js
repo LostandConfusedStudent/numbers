@@ -51,3 +51,28 @@ console.log("Redo the addition calculation");
 console.log("5 + 8 + 12 =")
 addition(x, y, z);
 console.log("-----------------------");
+
+// Define subjects array
+var subjects = ["math", "physics", "programming"];
+
+// Greeting in the form of a confirm
+var greeting = confirm("This page involves basic math.");
+
+if (greeting === true) {
+    alert("I'm glad you understand.");
+} else {
+    alert("This means that there will be basic math. You have been warned.");
+};
+
+// First question
+var answer = prompt("Is there a particular math subject you're studying?");
+// Convert answer to all lowercase
+answer = answer.toLowerCase();
+console.log("Here is your subject: " + answer);
+
+// Checking user's answer with given array
+if (answer === subjects[0] || answer === subjects[1] || answer === subjects[2]) {
+    alert("I'm studying that, too!!");
+} else {
+    alert("I know nothing of that subject...");
+}
