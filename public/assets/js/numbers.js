@@ -52,9 +52,6 @@ console.log("5 + 8 + 12 =")
 addition(x, y, z);
 console.log("-----------------------");
 
-// Define subjects array
-var subjects = ["math", "physics", "programming"];
-
 // Greeting in the form of a confirm
 var greeting = confirm("This page involves basic math.");
 
