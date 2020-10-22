@@ -26,14 +26,14 @@ var students = [
 
     {
         name: "Jack",
-        subject: "math",
+        subject: "logic",
         age: "19",
         grade: "B"
     },
 
     {
         name: "Gary",
-        subject: "math",
+        subject: "physics",
         age: "97",
         grade: "F"
     }
@@ -48,3 +48,11 @@ console.log("-----------------------");
 alert("Third student is " + students[2].name);
 console.log("Third student is " + students[2].name);
 console.log("He is " + students[2].age + " years old and his grade is " + students[2].grade);
+
+console.log("-----------------------");
+
+alert("Meet your classmates");
+
+for (var i = 0; i < students.length; i++) {
+    console.log(students[i].name + " is studying " + students[i].subject);
+}
